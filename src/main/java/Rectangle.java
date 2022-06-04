@@ -1,4 +1,4 @@
-public class Rectangle implements CalculationRectangleAreaAndPerimeter{
+public class Rectangle implements CalculationRectangleAreaAndPerimeter {
     private int a;
     private int b;
 
@@ -25,11 +25,12 @@ public class Rectangle implements CalculationRectangleAreaAndPerimeter{
 
     @Override
     public int calculatePerimeter() {
-        return (2*a)+(2*b);
+        return (2 * a) + (2 * b);
     }
 
     @Override
     public int calculateArea() {
-        return a*b;
+        return a * b;
     }
+
 }
